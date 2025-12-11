@@ -1,0 +1,120 @@
+---
+title: Documentation Changelog
+description: History of updates and changes to this documentation site for ASL.
+---
+
+## Changelog Overview
+
+You track all updates to the Patrick Thauvette Documentation site for Les Armateurs du Saint-Laurent (ASL) in this changelog. ASL represents 14 shipowners transporting goods and passengers on the St. Lawrence River, Great Lakes, Arctic, and Maritime provinces. This site documents regulatory tools, member resources, and maritime transportation guides.
+
+Recent releases focus on improving navigation, adding interactive features, and enhancing accessibility for stakeholders. Review changes below to stay informed on new capabilities supporting ASL's mission since 1936.
+
+<Callout kind="info">
+  Check this page regularly or enable notifications to receive updates on documentation improvements that aid regulatory watch, expertise pooling, and strategic links for ASL members.
+</Callout>
+
+### Version Summary
+
+| Version | Date       | Key Changes                  | Tags                  |
+|---------|------------|------------------------------|-----------------------|
+| v1.2.0  | 2024-10-15 | Interactive maps, API docs  | feature, improvement |
+| v1.1.0  | 2024-09-20 | Search enhancements, mobile | feature, bugfix      |
+| v1.0.0  | 2024-08-10 | Initial launch, core pages  | feature, breaking    |
+
+## Recent Releases
+
+<Update label="2024-10-15" description="v1.2.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Added interactive St. Lawrence River maps showing shipping routes and regulatory zones.
+- Introduced API documentation for member data integration with `{ASL_API_KEY}`.
+
+## Improvements
+
+- Enhanced search with filters for regulations, routes, and stakeholders.
+- Optimized performance for pages with large datasets like vessel registries.
+
+## Bug Fixes
+
+- Fixed broken links in maritime province guides.
+- Resolved mobile layout issues on regulatory watch pages.
+
+</Update>
+
+<Update label="2024-09-20" description="v1.1.0" tags={["feature", "bugfix"]}>
+
+## New Features
+
+- Implemented advanced search with autocomplete for ASL member resources.
+- Added dark mode toggle for better usability during extended reviews.
+
+## Improvements
+
+- Improved accessibility with ARIA labels on all interactive elements.
+- Streamlined navigation for quick access to promotion and representation tools.
+
+## Bug Fixes
+
+- Corrected date formatting in changelog entries.
+- Patched responsive issues on Great Lakes and Arctic route diagrams.
+
+</Update>
+
+<Update label="2024-08-10" description="v1.0.0" tags={["feature", "breaking"]}>
+
+## New Features
+
+- Launched core documentation covering ASL history, member interests, and stakeholder cooperation.
+- Integrated basic search and categorized sections for regulations and maritime development.
+
+## Improvements
+
+- Designed responsive layout optimized for desktop and mobile stakeholders.
+- Added multilingual support starting with English and French.
+
+## Breaking Changes
+
+- Restructured URL paths from legacy format to `/docs/[section]/[topic]`.
+
+</Update>
+
+## Upcoming Enhancements
+
+<Columns cols={3}>
+  <Card title="v1.3.0 Planning" icon="rocket" href="/docs/roadmap">
+    Real-time regulatory alerts and webhook integrations for members.
+  </Card>
+  <Card title="Analytics Dashboard" icon="bar-chart" href="/docs/analytics">
+    Track documentation usage and popular ASL resources.
+  </Card>
+  <Card title="Video Tutorials" icon="play-circle" href="/docs/tutorials">
+    Guides on using ASL tools for shipowners.
+  </Card>
+</Columns>
+
+<ExpandableGroup>
+  <Expandable title="How to Contribute to Updates" default-open="false">
+
+    Follow these steps to suggest improvements:
+
+    <Steps>
+      <Step title="Review Guidelines" icon="book-open">
+        Read the contribution docs at `/docs/contribute`.
+      </Step>
+      <Step title="Submit Feedback" icon="message-circle">
+        Use the feedback form with details on desired changes.
+      </Step>
+      <Step title="Test Locally" icon="code">
+        ```bash
+        git clone https://github.com/asl/docs-site.git
+        npm install
+        npm run dev
+        ```
+      </Step>
+    </Steps>
+
+  </Expandable>
+</ExpandableGroup>
+
+Stay tuned for more enhancements supporting ASL's growth in St. Lawrence maritime transportation.

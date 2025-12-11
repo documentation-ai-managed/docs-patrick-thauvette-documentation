@@ -1,0 +1,86 @@
+{
+  "name": "Patrick Thauvette Documentation",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#114d62"
+    },
+    "dark": {
+      "brand": "#4d7a89"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "star"
+              },
+              {
+                "title": "Getting Started",
+                "path": "getting-started",
+                "icon": "play"
+              }
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "icon": "lightbulb",
+            "pages": [
+              {
+                "title": "Maritime Concepts",
+                "path": "maritime-concepts",
+                "icon": "compass"
+              }
+            ]
+          },
+          {
+            "group": "Guides",
+            "icon": "flag",
+            "pages": [
+              {
+                "title": "Representation Guide",
+                "path": "representation-guide",
+                "icon": "file-text"
+              },
+              {
+                "title": "FAQ",
+                "path": "faq",
+                "icon": "help-circle"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
